@@ -15,7 +15,7 @@ class GeminiService {
     try {
       _model = GenerativeModel(
         model: _modelName,
-        apiKey: _apiKey, // Use hardcoded API key
+        apiKey: _apiKey,
       );
       _isInitialized = true;
       return true;
